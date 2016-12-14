@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "OCR System"
+date:   2016-12-14 02:32:00 -0000
+categories: Python, OCR
+---
+Python - : The idea of the assignment was to produce a system that can recognise (classify) letters from a given text page. All training and test data were provided and I had a freedom to choose an algorithm to extract features and how to proceed with that data, but to classify data I was asked to use nearest neighbour algorithm.
+Start date - 6.12.2015, End date - 13.12.2015,
+Module - Data Driven Computing.
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/OCR_System

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Ruby - Battle Ship Game"
+date:   2016-12-14 02:19:00 -0000
+categories: Ruby programming
+---
+This assignment was my first game I completed at decent level. While assignment aim was to practice topics, covered in semester 1, I tried to use advanced features of Ruby to make my game as efficient as possible. Start date - 2.12.2014, End date - 15.12.2014,
+Module - Introduction in Software Engineering.
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/Ruby-BattleShip

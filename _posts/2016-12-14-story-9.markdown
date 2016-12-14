@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Game Jam"
+date:   2016-12-14 02:23:00 -0000
+categories: Java programming, Game development
+---
+I have built a team with my coursemate to take a part in this 24 hours Game Jam. It was my first experience in such an events, however I was ready to face any challenges. At the beginning of the event we decided to take 2 more guys into team, so after that our team started to think about the game - the topic was “End of the world”. After Jam finished we had a fully functional game (2D platformer). To achieve this goal we use LibGDX library.
+Start date - 14.11.2015, End date - 15.11.2015
+
+[GitHub Link][link-to]
+
+[link-to]: lost

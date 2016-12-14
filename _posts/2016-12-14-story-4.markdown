@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "The Rambler’s Problem"
+date:   2016-12-14 02:25:00 -0000
+categories: Java programming
+---
+The aim of this assignment was to work out the best route from a start point to a goal point, given a terrain map for the area by applying different search algorithms, such as Branch-and-Bound and A*.  
+Start date - 01.04.2015, End date - 13.04.2015,
+Module - Machines and Intelligence.
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/RamblerProb

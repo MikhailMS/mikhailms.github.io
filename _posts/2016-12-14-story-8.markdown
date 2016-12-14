@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Android Development"
+date:   2016-12-14 02:23:00 -0000
+categories: Java programming, Android development
+---
+I have joined a team of graduates from Sheffield Hallam University. They asked me to produce an android application for their project, so I decided to take this opportunity to test my abilities in Java and solving challenges as I’ve never tried to code a mobile applications. Over the summer I worked in collaboration with a team in order to produce the great app. I have learned Android Development from the scratch by watching course provided by Google Android team. After the course I was able to build a decent application. By the end of the summer I had a working prototype that was accepted by the team, so currently I am working on improvements.
+Start date - 1.07.2015, End date - project is frozen.
+
+[GitHub Link][link-to]
+
+[link-to]: lost

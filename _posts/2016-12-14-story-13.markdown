@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Solitaire Game"
+date:   2016-12-14 02:33:00 -0000
+categories: Haskell
+---
+The idea of the project was to practice Haskell skills by implementing a Solitaire Game. This task was the most challenging so far and I put great effort in order to complete it.
+Start date - 20.11.2015, End date - 16.12.2015,
+Module - Advanced Programming Topics.
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/Solitaire

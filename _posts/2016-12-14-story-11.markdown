@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Application for a Dental Practice"
+date:   2016-12-14 02:31:00 -0000
+categories: Java programming, Software Development
+---
+Project’s aim was t	o practice material covered in first semester. In a team of 4 we fulfilled all given tasks - provide a system(written in Java) with interfaces for dentist, hygienist and secretary.
+Start date - 30.11.2015, End date - 15.12.2015,
+Module - Human Centred Systems Design.
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/DentalPractice

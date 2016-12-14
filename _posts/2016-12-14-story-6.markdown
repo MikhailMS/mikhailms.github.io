@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Group Project: Web Service"
+date:   2016-12-14 02:23:00 -0000
+categories: Ruby programming
+---
+The idea of the project was to practice not only technical skills, such as: web design, Ruby and SQLite DB, but also to practice Agile methodology, Git and principles of Software Development.
+Start date - 20.11.2014, End date - 10.05.2015,
+Module - Introduction to Software Engineering.
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/TwitterProject
