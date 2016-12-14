@@ -10,7 +10,7 @@ email: 1488maiklm@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My personal webpage (blog) where I publish my completed and recent projects/ideas
   Also you may read my CV here as well by navigating to CV page.
-baseurl: "/about" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mikhailms.github.io"
 github_username:  mikhailms
 
