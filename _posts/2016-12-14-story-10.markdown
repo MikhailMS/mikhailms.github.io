@@ -9,4 +9,4 @@ Start date - 09.11.2015, End date - 27.11.2015
 
 [GitHub Link][link-to]
 
-[link-to]: lost
+[link-to]: #

@@ -9,4 +9,4 @@ Start date - 1.07.2015, End date - project is frozen.
 
 [GitHub Link][link-to]
 
-[link-to]: lost
+[link-to]: #
