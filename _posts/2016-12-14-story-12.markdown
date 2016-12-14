@@ -8,7 +8,7 @@ end-date: 2015-12-13
 module-name: Data Driven Computing
 author: Mikhail Molotkov
 ---
-Python - : The idea of the assignment was to produce a system that can recognise (classify) letters from a given text page. All training and test data were provided and I had a freedom to choose an algorithm to extract features and how to proceed with that data, but to classify data I was asked to use nearest neighbour algorithm.
+The idea of the assignment was to produce a system that can recognise (classify) letters from a given text page. All training and test data were provided and I had a freedom to choose an algorithm to extract features and how to proceed with that data, but to classify data I was asked to use nearest neighbour algorithm.
 
 [GitHub Link][link-to]
 
