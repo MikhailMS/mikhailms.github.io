@@ -3,10 +3,12 @@ layout: post
 title:  "STRIPS algorithm in Game Playing"
 date:   2016-12-14 02:26:00 -0000
 categories: Java programming
+start-date: 2015-04-30
+end-date: 2015-05-10
+module-name: Machines and Intelligence
+author: Mikhail Molotkov
 ---
 The idea of the assignment was to apply STRIPS algorithm to Warrior Game.
-Start date - 30.04.2015, End date - 10.05.2015,
-Module - Machines and Intelligence.
 
 [GitHub Link][link-to]
 

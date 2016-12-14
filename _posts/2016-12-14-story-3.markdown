@@ -3,10 +3,12 @@ layout: post
 title:  "Program a Lego Robot"
 date:   2016-12-14 02:23:00 -0000
 categories: Java programming, robots
+start-date: 2014-11-30
+end-date: 2015-01-18
+module-name: Java Programming
+author: Mikhail Molotkov
 ---
 The idea of the project was to teach us to work in pairs on a task that was not covered on lectures. The task was simple - code the robot so it follows the black line on the floor and avoid obstacles on its way. The main challenge was to make software and hardware work as we wanted. It took a bit of a time to figure out the right parameters so robot behaves right. As extra bit we made our robot to dance and sing Christmas song (“We wish you a Merry Christmas”) when it completes the task.
-Start date - 30.11.2014, End date - 18.01.2015,
-Module - Java Programming.
 
 [GitHub Link][link-to]
 

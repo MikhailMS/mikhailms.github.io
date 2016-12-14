@@ -3,10 +3,12 @@ layout: post
 title:  "Chess Game"
 date:   2016-12-14 02:28:00 -0000
 categories: Java programming
+start-date: 2015-04-01
+end-date: 2015-05-14
+module-name: Java Programming
+author: Mikhail Molotkov
 ---
 The idea of the assignment was by practicing material covered on lectures  create a Chess Game. This project was my third game and I put great effort to complete this game. By the end of the project I produced a fully functional game with a few missing, for the sake of the simplicity,  features, which were not required by assignment specification.
-Start date - 01.04.2015, End date - 14.05.2015,
-Module - Java Programming.
 
 [GitHub Link][link-to]
 
