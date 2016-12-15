@@ -47,16 +47,12 @@ layout: cv-def
   <div class="col-md-4">
     <h1 class="page-heading">Skills</h1>
     <ul class="post-list">
-      {% for item in site.cv %}
-        {% if item.category == 'work' %}
+      {% for post in site.posts %}
+        {% if post.end-date == null %}
           <li>
-            <span class="post-meta">{{ item.start-date | date: "%b %-d, %Y" }}</span>
-            {% if item.end-date != null %}
-              <span class="post-meta">{{ item.end-date | date: "%b %-d, %Y" }}</span>
-            {% endif %}
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
-              <span class="post-meta">{{ item.title }}</span>
-              <p>{{ content }}</p>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
           </li>
         {% endif %}
