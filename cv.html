@@ -29,7 +29,7 @@ layout: cv-def
     <h1 class="page-heading">Work experience</h1>
     <ul class="post-list">
       {% for post in site.posts %}
-        {% if post.category == 'skills' %}
+        {% if post.category == 'work' %}
           <li>
             <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
             {% if post.end-date != null %}
@@ -50,7 +50,7 @@ layout: cv-def
     <h1 class="page-heading">Skills</h1>
     <ul class="post-list">
       {% for post in site.posts %}
-        {% if post.category == 'work' %}
+        {% if post.category == 'skills' %}
           <li>
             <h2>
               <p class="post-meta">{{ post.title }}</p>
