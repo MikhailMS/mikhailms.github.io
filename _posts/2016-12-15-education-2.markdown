@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Warminster School
+date:   2016-12-15 17:25:00 -0000
 start-date: 2012-09-08
 end-date: 2014-07-01
 category: education
@@ -9,4 +10,4 @@ During my time in Sixth Form at Warminster School I obtained following grades:
 Math (A), Russian (A*), Further Math (D), Physics (D).
 
 Besides putting lots of effort in studies, I've been a member of 1st Football team,
-studied guitar and been a part of CCF (Combat Cadet Force) where I got a Lance Corporal rank. 
+studied guitar and been a part of CCF (Combat Cadet Force) where I got a Lance Corporal rank.
