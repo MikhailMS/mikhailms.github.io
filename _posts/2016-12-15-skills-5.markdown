@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  IT
+date:   2016-12-15 17:24:00 -0000
 category: skills
 ---
 Web development: HTML, CSS, Ruby on Rails, JQuery, JavaScript and JS frameworks, such as: Angular.js , Meteor.js, Node.js and React.js

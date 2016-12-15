@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Communication
+date:   2016-12-15 17:28:00 -0000
 category: skills
 ---
 Over the whole work experience so far I have communicated with different types of customers, tried to find the best way to understand their needs and helped them if they were doubt.

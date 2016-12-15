@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Languages
+date:   2016-12-15 17:25:00 -0000
 category: skills
 ---
 Native Russian/Ukrainian speaker. Excellent standard of English (IELTS – 7.0). Can speak and write in German and Japanese at Beginner/Intermediate level.

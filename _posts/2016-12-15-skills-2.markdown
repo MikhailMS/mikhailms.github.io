@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Customer service
+date:   2016-12-15 17:27:00 -0000
 category: skills
 ---
 While working as a cashier, I had always tried to give the customers the best service to encourage repeat customers building a personal rapport.

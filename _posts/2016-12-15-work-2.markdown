@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Android Developer @ Pikture LTD
+date:   2016-12-15 17:27:00 -0000
 start-date: 2015-05-20
 end-date: 2016-05-31
 category: work
