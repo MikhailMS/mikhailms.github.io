@@ -7,15 +7,15 @@ layout: cv-def
   <div class="col-md-4">
     <h1 class="page-heading">Education</h1>
     <ul class="post-list">
-      {% for item in site.cv %}
-        {% if item.category == 'education' %}
+      {% for post in site.posts %}
+        {% if post.category == 'education' %}
           <li>
-            <span class="post-meta">{{ item.start-date | date: "%b %-d, %Y" }}</span>
-            {% if item.end-date != null %}
-              <span class="post-meta">{{ item.end-date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
+            {% if post.end-date != null %}
+              <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
             {% endif %}
             <h2>
-              <span class="post-meta">{{ item.title }}</span>
+              <span class="post-meta">{{ post.title }}</span>
               <p>{{ content }}</p>
             </h2>
           </li>
@@ -27,15 +27,15 @@ layout: cv-def
   <div class="col-md-4">
     <h1 class="page-heading">Work experience</h1>
     <ul class="post-list">
-      {% for item in site.cv %}
-        {% if item.category == 'skills' %}
+      {% for post in site.posts %}
+        {% if post.category == 'skills' %}
           <li>
-            <span class="post-meta">{{ item.start-date | date: "%b %-d, %Y" }}</span>
-            {% if item.end-date != null %}
-              <span class="post-meta">{{ item.end-date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
+            {% if post.end-date != null %}
+              <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
             {% endif %}
             <h2>
-              <span class="post-meta">{{ item.title }}</span>
+              <span class="post-meta">{{ post.title }}</span>
               <p>{{ content }}</p>
             </h2>
           </li>
@@ -48,11 +48,15 @@ layout: cv-def
     <h1 class="page-heading">Skills</h1>
     <ul class="post-list">
       {% for post in site.posts %}
-        {% if post.end-date == null %}
+        {% if post.category == 'work' %}
           <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
+            {% if post.end-date != null %}
+              <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
+            {% endif %}
             <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <span class="post-meta">{{ post.title }}</span>
+              <p>{{ content }}</p>
             </h2>
           </li>
         {% endif %}
