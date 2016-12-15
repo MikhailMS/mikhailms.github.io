@@ -1,0 +1,9 @@
+---
+layout: post
+title:  University of Sheffield
+start-date: 2014-09-20
+category: work
+---
+At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
+In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
+'Adaptive Web', 'Speech Processing'.
