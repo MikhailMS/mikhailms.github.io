@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  BT Summer Placement
+start-date: 2016-06-13
+end-date: 2016-09-02
 category: work
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+My project was to build a web based application in R with Shiny framework. Application must connect to Oracle DB and fetch data from the table specified by user and provide visualisation for any data stored in that table.

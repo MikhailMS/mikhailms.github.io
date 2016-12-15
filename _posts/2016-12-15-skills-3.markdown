@@ -1,9 +1,6 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  Teamwork/Leadership
 category: skills
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+During my work experience I have worked in a variety of different teams, this allowed me to build my personal relationship skills with colleagues; learning to effectively build a dynamic relationship with team members.

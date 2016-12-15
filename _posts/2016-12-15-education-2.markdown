@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  Warminster School
+start-date: 2012-09-08
+end-date: 2014-07-01
 category: education
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+During my time in Sixth Form at Warminster School I obtained following grades:
+Math (A), Russian (A*), Further Math (D), Physics (D).
+
+Besides putting lots of effort in studies, I've been a member of 1st Football team,
+studied guitar and been a part of CCF (Combat Cadet Force) where I got a Lance Corporal rank. 

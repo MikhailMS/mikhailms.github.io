@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  Gymnazium №10
+start-date: 2009-09-01
+end-date: 2012-06-20
 category: education
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+ I have passed National Exams twice - after I finished 9th Grade and 11th Grade (AS level and A level equivalents respectively). My exam grades are as follow:
+
+ (Grade A-B) including Maths/Further Maths, Physics, Computer Science, Russian (Equivalent of A level study)
+
+ (Grade A) including Math, Physics, Russian, Chemistry. (Equivalent of GCSE level study).

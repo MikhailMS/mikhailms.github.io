@@ -1,9 +1,6 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  Customer service
 category: skills
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+While working as a cashier, I had always tried to give the customers the best service to encourage repeat customers building a personal rapport.

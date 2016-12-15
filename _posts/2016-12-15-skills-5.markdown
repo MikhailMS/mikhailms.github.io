@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  IT
 category: skills
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+Web development: HTML, CSS, Ruby on Rails, JQuery, JavaScript and JS frameworks, such as: Angular.js , Meteor.js, Node.js and React.js
+
+Programming: C#, Java, Python, Ruby, Haskell, Android development, R
+
+Databases - SQLite, MySQL, Oracle DB and MongoDB.

@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  Android Developer @ Pikture LTD
+start-date: 2015-05-20
+end-date: 2016-05-31
 category: work
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+Throughout my time at Pikture LTD I have gained an outstanding understanding in mobile development, particularly for Android OS. I have covered a diverse range of topics, from application design (creating custom layouts/themes) to connecting applications to a web server. Project has been frozen at the time of writing this article.

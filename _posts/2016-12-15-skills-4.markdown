@@ -1,9 +1,6 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  Languages
 category: skills
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+Native Russian/Ukrainian speaker. Excellent standard of English (IELTS – 7.0). Can speak and write in German and Japanese at Beginner/Intermediate level.

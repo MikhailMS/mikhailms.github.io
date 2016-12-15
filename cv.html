@@ -16,7 +16,7 @@ layout: cv-def
             {% endif %}
             <h2>
               <span class="post-meta">{{ post.title }}</span>
-              <p>{{ post.content }}</p>
+              <p class="post-meta">{{ post.content }}</p>
             </h2>
           </li>
         {% endif %}
@@ -36,7 +36,7 @@ layout: cv-def
             {% endif %}
             <h2>
               <span class="post-meta">{{ post.title }}</span>
-              <p>{{ post.content }}</p>
+              <p class="post-meta">{{ post.content }}</p>
             </h2>
           </li>
         {% endif %}
@@ -50,13 +50,9 @@ layout: cv-def
       {% for post in site.posts %}
         {% if post.category == 'work' %}
           <li>
-            <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
-            {% if post.end-date != null %}
-              <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
-            {% endif %}
             <h2>
               <span class="post-meta">{{ post.title }}</span>
-              <p>{{ post.content }}</p>
+              <p class="post-meta">{{ post.content }}</p>
             </h2>
           </li>
         {% endif %}

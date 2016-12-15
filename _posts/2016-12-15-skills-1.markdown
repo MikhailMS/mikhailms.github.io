@@ -1,9 +1,6 @@
 ---
 layout: post
-title:  University of Sheffield
-start-date: 2014-09-20
+title:  Communication
 category: skills
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+Over the whole work experience so far I have communicated with different types of customers, tried to find the best way to understand their needs and helped them if they were doubt.
