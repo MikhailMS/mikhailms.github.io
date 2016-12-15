@@ -3,6 +3,7 @@ layout: post
 title:  "Forecast Challenge by NPower"
 date:   2016-12-14 02:30:00 -0000
 categories: Python, Neural networks
+tag: post
 start-date: 2015-11-09
 end-date: 2015-11-27
 module-name: Challenges

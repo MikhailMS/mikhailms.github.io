@@ -3,6 +3,7 @@ layout: post
 title:  "Android Development"
 date:   2016-12-14 02:23:00 -0000
 categories: Java programming, Android development
+tag: post
 start-date: 2015-07-01
 end-date: 2016-05-11
 module-name: Work experience

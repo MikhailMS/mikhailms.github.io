@@ -3,6 +3,7 @@ layout: post
 title:  "Important info"
 date:   2016-05-17 16:33:08 -0400
 categories: test
+tag: post
 ---
 Jekyll also offers powerful support for code snippets:
 

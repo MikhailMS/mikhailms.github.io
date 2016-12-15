@@ -3,6 +3,7 @@ layout: post
 title:  "Ruby - Battle Ship Game"
 date:   2016-12-14 02:19:00 -0000
 categories: Ruby programming
+tag: post
 start-date: 2014-12-02
 end-date: 2014-12-15
 module-name: Introduction in Software Engineering

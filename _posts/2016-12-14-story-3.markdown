@@ -3,6 +3,7 @@ layout: post
 title:  "Program a Lego Robot"
 date:   2016-12-14 02:23:00 -0000
 categories: Java programming, robots
+tag: post
 start-date: 2014-11-30
 end-date: 2015-01-18
 module-name: Java Programming

@@ -3,6 +3,7 @@ layout: post
 title:  "OCR System"
 date:   2016-12-14 02:32:00 -0000
 categories: Python, OCR
+tag: post
 start-date: 2015-12-06
 end-date: 2015-12-13
 module-name: Data Driven Computing

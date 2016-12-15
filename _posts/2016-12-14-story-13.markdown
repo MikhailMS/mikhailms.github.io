@@ -3,6 +3,7 @@ layout: post
 title:  "Solitaire Game"
 date:   2016-12-14 02:33:00 -0000
 categories: Haskell
+tag: post
 start-date: 2015-11-20
 end-date: 2015-12-16
 module-name: Advanced Programming Topics

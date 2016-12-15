@@ -3,6 +3,7 @@ layout: post
 title:  "The Rambler’s Problem"
 date:   2016-12-14 02:25:00 -0000
 categories: Java programming
+tag: post
 start-date: 2015-04-01
 end-date: 2015-04-13
 module-name: Machines and Intelligence
