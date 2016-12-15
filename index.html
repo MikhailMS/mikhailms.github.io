@@ -8,13 +8,14 @@ layout: index-def
     <h1 class="page-heading">Current projects</h1>
     <ul class="post-list">
       {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
+        {% if post.end-date == null %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>
@@ -23,13 +24,14 @@ layout: index-def
     <h1 class="page-heading">Completed projects</h1>
     <ul class="post-list">
       {% for post in site.posts %}
+      {% if post.end-date != null %}
         <li>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
         </li>
+      {% endif %}
       {% endfor %}
     </ul>
   </div>
