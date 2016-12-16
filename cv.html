@@ -3,63 +3,68 @@ layout: default
 ---
 
 <div class="home">
-  <!-- Education -->
-  <div class="col-md-4">
-    <h1 class="page-heading">Education</h1>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% if post.category == 'education' %}
-          <li>
-            <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
-            {% if post.end-date != null %}
-              <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
-            {% endif %}
-            <h2>
-              <p class="post-meta">{{ post.title }}</p>
-              <span class="post-meta">{{ post.content}}</span>
-            </h2>
-          </li>
-          <span class="post-meta">--------------------------</span>
-        {% endif %}
-      {% endfor %}
-    </ul>
+  <div class='main-content'>
+    <!-- Education -->
+    <div class="col-md-4">
+      <h1 class="page-heading">Education</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% if post.category == 'education' %}
+            <li>
+              <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
+              {% if post.end-date != null %}
+                <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
+              {% endif %}
+              <h2>
+                <p class="post-meta">{{ post.title }}</p>
+                <span class="post-meta">{{ post.content}}</span>
+              </h2>
+            </li>
+            <span class="post-meta">--------------------------</span>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- Work experience -->
+    <div class="col-md-4">
+      <h1 class="page-heading">Work experience</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% if post.category == 'work' %}
+            <li>
+              <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
+              {% if post.end-date != null %}
+                <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
+              {% endif %}
+              <h2>
+                <p class="post-meta">{{ post.title }}</p>
+                <span class="post-meta">{{ post.content}}</span>
+              </h2>
+            </li>
+            <span class="post-meta">--------------------------</span>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- Skills -->
+    <div class="col-md-4">
+      <h1 class="page-heading">Skills</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% if post.category == 'skills' %}
+            <li>
+              <h2>
+                <p class="post-meta">{{ post.title }}</p>
+                <span class="post-meta">{{ post.content}}</span>
+              </h2>
+            </li>
+            <span class="post-meta">--------------------------</span>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-  <!-- Work experience -->
-  <div class="col-md-4">
-    <h1 class="page-heading">Work experience</h1>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% if post.category == 'work' %}
-          <li>
-            <span class="post-meta">{{ post.start-date | date: "%b %-d, %Y" }}</span>
-            {% if post.end-date != null %}
-              <span class="post-meta">{{ post.end-date | date: "%b %-d, %Y" }}</span>
-            {% endif %}
-            <h2>
-              <p class="post-meta">{{ post.title }}</p>
-              <span class="post-meta">{{ post.content}}</span>
-            </h2>
-          </li>
-          <span class="post-meta">--------------------------</span>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <!-- Skills -->
-  <div class="col-md-4">
-    <h1 class="page-heading">Skills</h1>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% if post.category == 'skills' %}
-          <li>
-            <h2>
-              <p class="post-meta">{{ post.title }}</p>
-              <span class="post-meta">{{ post.content}}</span>
-            </h2>
-          </li>
-          <span class="post-meta">--------------------------</span>
-        {% endif %}
-      {% endfor %}
-    </ul>
+  <div class='pdf-link'>
+    <p>Or you can download [full version]({{ site.url }}/assets/docs/CV.pdf) of the CV to read through letter</p>
   </div>
 </div>
