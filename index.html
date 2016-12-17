@@ -3,41 +3,6 @@ layout: default
 ---
 
 <div class="home">
-  <!-- Main content bit -->
-  <div class='main-content'>
-    <!-- List of recent/current projects -->
-    <div class="col-md-6">
-      <h1 class="page-heading">Current projects</h1>
-      <ul class="post-list">
-        {% for post in site.posts %}
-          {% if post.end-date == null and post.tag == 'post' %}
-            <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-    <!-- List of completed projects -->
-    <div class="col-md-6">
-      <h1 class="page-heading">Completed projects</h1>
-      <ul class="post-list">
-        {% for post in site.posts %}
-        {% if post.end-date != null and post.tag == 'post' %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-          </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
   <!-- Animation bit -->
   <div class='animation'>
     <div id="fullpage">
@@ -72,6 +37,41 @@ layout: default
 
 			</div>
 		</div>
+  </div>
+  <!-- Main content bit -->
+  <div class='main-content'>
+    <!-- List of recent/current projects -->
+    <div class="col-md-6">
+      <h1 class="page-heading">Current projects</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% if post.end-date == null and post.tag == 'post' %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- List of completed projects -->
+    <div class="col-md-6">
+      <h1 class="page-heading">Completed projects</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+        {% if post.end-date != null and post.tag == 'post' %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
 <script src="/assets/js/jquery-3.1.1.slim.min.js"></script>
