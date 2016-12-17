@@ -428,8 +428,8 @@
 
 /* Snowfall */
 #snow{
-	width: 100%;
-	height: 550px;
+	width: 400px;
+	height: 400px;
 	background: none;
 	font-family: Androgyne;
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
