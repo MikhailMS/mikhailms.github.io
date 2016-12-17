@@ -7,7 +7,7 @@
     text-align: center;
     background: #f1ede3;
     width: 100%;
-    height: 400px;
+    height: 550px;
     color: #555;
 
     -webkit-transition: background 1s ease-in-out;
@@ -429,7 +429,7 @@
 /* Snowfall */
 #snow{
 	width: 100%;
-	height: 100%;
+	height: 550px;
 	background: none;
 	font-family: Androgyne;
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
