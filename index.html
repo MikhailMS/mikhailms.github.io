@@ -3,12 +3,68 @@ layout: default
 ---
 
 <div class="home">
-  <!-- List of recent/current projects -->
-  <div class="col-md-6">
-    <h1 class="page-heading">Current projects</h1>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% if post.end-date == null and post.tag == 'post' %}
+  <div class='animation'>
+    <div id="fullpage">
+			<div class="section">
+		        <div class="time-circle">
+
+					<div class="sun">
+		        	</div>
+
+					<div class="moon">
+		            	<div></div>
+		                <div></div>
+		                <div></div>
+		           	</div>
+
+					<div class="stars">
+		            	<div></div>
+		                <div></div>
+		                <div></div>
+		                <div></div>
+		                <div></div>
+		                <div></div>
+		                <div></div>
+		            </div>
+
+					<div class="water">
+		            </div>
+		      	</div>
+
+				<div id="intro-text">
+		        	<h1>Full day simulation with snowfall</h1>
+		        	<h2>Day simulation is created by Szymon Stypa (all credits to this CSS master). I only added extra day periods (early morning, morning etc) and snowfall.</h2>
+		        </div>
+
+				<div id="snow">
+				</div>
+
+			</div>
+		</div>
+  </div>
+  <div class='main-content'>
+    <!-- List of recent/current projects -->
+    <div class="col-md-6">
+      <h1 class="page-heading">Current projects</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% if post.end-date == null and post.tag == 'post' %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- List of completed projects -->
+    <div class="col-md-6">
+      <h1 class="page-heading">Completed projects</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+        {% if post.end-date != null and post.tag == 'post' %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
@@ -16,23 +72,9 @@ layout: default
             </h2>
           </li>
         {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <!-- List of completed projects -->
-  <div class="col-md-6">
-    <h1 class="page-heading">Completed projects</h1>
-    <ul class="post-list">
-      {% for post in site.posts %}
-      {% if post.end-date != null and post.tag == 'post' %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
+<script src="/assets/js/animation.js"></script>
