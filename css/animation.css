@@ -1,45 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
-/* Midday background and shared properties for different stages */
-.section {
-    padding-top: 40px;
-    font-size: 1em;
-    text-align: center;
-    background: #f1ede3;
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
-    color: #555;
-
-    -webkit-transition: background 1s ease-in-out;
-    transition: background 1s ease-in-out;
-}
-/* Midnight background */
-.night .section {
-	background: #080d17;
-	color: #e9e5d5;
-}
-/* Pre-early morning background */
-.late-night .section {
-	background: #111936;
-	color: #e9e5d5;
-}
-/* Early morning background  */
-.early-morning .section {
-	background: #522546;
-	color: #e9e5d5;
-}
-/* Morning background */
-.morning .section {
-	background: #F7C873;
-	color: #555;
-}
-/* Evening background  */
-.evening .section {
-	background: #364F6B;
-	color: #e9e5d5;
-}
-
 /* Midday background of the animation and shared properties for different stages */
 .time-circle {
   	position: relative;
