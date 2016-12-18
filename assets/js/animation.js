@@ -2,28 +2,6 @@ $(window).ready(function() {
 	updated_day_night_animation_run();
 });
 
-function day_night_animation_run() {
-	console.log("animation started");
-	var counter = 0;
-	var animation = setInterval(function() {
-		if (counter == 24)
-			counter = 0;
-		else if (counter%4==0) {
-		    if ($("#fullpage").hasClass("night")) {
-		        $("#fullpage").removeClass("night");
-		        $("#switch").removeClass("switched");
-		    }
-		    else {
-		        $("#fullpage").addClass("night");
-		        $("#switch").addClass("switched");
-
-		    }
-		}
-		else
-			counter += 1;
-	}, 10000);
-}
-
 function updated_day_night_animation_run() {
 	console.log("updated animation started");
 	var counter = 0;
