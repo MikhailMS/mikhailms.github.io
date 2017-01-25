@@ -17,7 +17,6 @@ Since there are number of features that may be extracted from music and the text
 **List of modules that would be created, in order to complete the application, in the priority order:**
 
 - [x] ~~Music input~~ - more functionality should be added, since at the moment text features are not taken into account
-
 - [ ] Music analysis
 
 - [ ] Text analysis - **currently in progress**
