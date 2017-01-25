@@ -8,9 +8,11 @@ start-date: 2016-10-04
 module-name: Research Project
 author: Mikhail Molotkov
 ---
-Idea of my research project is to find a way to map text features, such as: sentiment of the text, readability and etc - with music features, for example: key, tempo and etc.
+Everyone is familiar with data visualisation tools. However, what if we were able to represent data in musical form?
 
-Since there are number of features that may be extracted from music and the text, and lots of ways to map them with each other, extensive trial would be conducted once below modules are build.
+Project aims to use modern techniques for text analysis, music generation and neural networks to reach the goal - design and develop the system that would be capable to map features, extracted from the text, onto music in order to control its parameters. System could be used for generating background music for audio books.
+
+Since there are number of features that may be extracted from music and the text, and lots of ways to map them with each other, extensive trial would be conducted once below modules are build to identify most suitable approach.
 
 **List of modules that would be created, in order to complete the application, in the priority order:**
 
