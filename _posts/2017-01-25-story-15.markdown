@@ -9,19 +9,20 @@ module-name: Research Project
 author: Mikhail Molotkov
 ---
 Idea of my research project is to find a way to map text features, such as: sentiment of the text, readability and etc - with music features, for example: key, tempo and etc.
+
 Since there are number of features that may be extracted from music and the text, and lots of ways to map them with each other, extensive trial would be conducted once below modules are build.
 
 **List of modules that would be created, in order to complete the application, in the priority order:**
 
-- [x] Music input - more functionality should be added, since now text features are not taken into account
+- [x] ~~Music input~~ - more functionality should be added, since at the moment text features are not taken into account
 
 - [ ] Music analysis
 
-- [ ] Text analysis
+- [ ] Text analysis - **currently in progress**
 
-- [x] Building neural network - *80% completeness. Possibly some changes would be made to network after text features would be added for analysis*
+- [x] ~~Building neural network~~ - *80% completeness. Possibly some changes would be made to network after text features would be added for analysis*
 
-- [x] Music output - *100% completeness*
+- [x] ~~Music output~~ - *100% completeness*
 
 - [ ] Text mapping
 
