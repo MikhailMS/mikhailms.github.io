@@ -2,7 +2,7 @@
 layout: post
 title:  "Musification of text data"
 date:   2017-01-25 01:11:53 -0000
-categories: Python, Neural networks, LSTM, NLP
+categories: Python, Multiprocessing, Neural networks, LSTM, NLP
 tag: post
 start-date: 2016-10-04
 module-name: Research Project
@@ -18,7 +18,7 @@ Since there are number of features that may be extracted from music and the text
 
 - [x] Music input
 - [ ] Music analysis - *in progress*
-- [x] ~~Text analysis~~ - *100% completeness*
+- [x] ~~Text analysis~~ - *100% completeness: available in 2 version: single & multi processing*
 - [x] ~~Building neural network~~ - *80% completeness. Possibly some changes would be made to network after text features would be added for analysis*
 - [x] ~~Music output~~ - *100% completeness*
 - [ ] Text mapping
