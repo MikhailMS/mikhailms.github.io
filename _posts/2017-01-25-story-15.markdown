@@ -16,11 +16,20 @@ Since there are number of features that may be extracted from music and the text
 
 **List of modules that would be created, in order to complete the application, in the priority order:**
 
-- [x] Music input
-- [ ] Music analysis - *in progress*
-- [x] ~~Text analysis~~ - *100% completeness: available in 2 version: single & multi processing*
-- [x] ~~Building neural network~~ - *80% completeness. Possibly some changes would be made to network after text features would be added for analysis*
-- [x] ~~Music output~~ - *100% completeness*
-- [ ] Text mapping
+1. - [x] **Text analysis module**: _Available in two forms: single processing & multi processing (default choice)_
+   - [x] Read in epub files
+   - [x] Clean text - automatic and manual cleaning
+   - [x] Sentiment analysis
+   - [x] Lexical density analysis
+   - [x] Readability analysis - possibly worth adding variety of formulas
+   - [x] Sliding window feature - moves through text rather then giving a score to the whole text
+
+2. - [ ] **Music generation module**:
+   - [x] Music input
+   - [x] Music analysis
+   - [x] Build LSTM model
+   - [x] Training LSTM model
+   - [ ] Music generation - **in progress** : need to pass extra parameters (received from mapping function) to generation step
+   - [ ] Mapping text features onto music ones - **in progress** : need to find what could be controlled by lexical density
 
 **_Application is build with Python 2.7_**
