@@ -17,6 +17,7 @@ From the day 1 my responsibles were:
 5. Deployment of the application and products:
 6. Maintane the production servers for non-critical systems:
 
+
 From time to time our team receives tasks from other team to build software for them, so we never stop learning and developing. For example:
 1. We have build web based application for network events predictions - JavaScript for server and user interaction + Python for machine learning and prediction
 2. Testing coverage tool for Nokia DSL. Written in Kotlin
