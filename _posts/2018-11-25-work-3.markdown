@@ -9,29 +9,13 @@ I have joined BT almost 1.5 years ago and so far it was a great experience.
 Ever since I joined I was involved into real project unlike most of the grad roles.
 
 From the day 1 my responsibles were:
-1. Develop the system for collecting data from internal servers
-  1. At the end of the days, after experimenting with available tools we decided to collect the data with Apache Flume
-2. Develop the system for aggregating and distributing collected data
-  1. We decided to try out Apache Kafka tool and it perfectly suited our architectural design
-3. Develop an API for exposing access to our data sources to internal & external teams
-  1. I was the only person assigned to this project. After experimenting with different languages and libraries decided to choose Python. So API is written in Python 3.6
-4. Maintaining and improving the current products of our team:
-  1. All of them are written in DSL (Nokia specific language for broadband authentication)
-  2. We do have support plugins that are written in Java, which've been developed recently and now it is my job to maintain them
-  3. We do have number of support scripts written in Ruby, Bash and Python.
-  3. We do have our own shell, which is written in Golang
+1. Develop the system for collecting data from internal servers (Apache Flume)
+2. Develop the system for aggregating and distributing collected data (Apache Kafka)
+3. Develop an API for exposing access to our data sources to internal & external teams (Python 3.6 + asyncio)
+4. Maintaining and improving the current products of our team
 5. Keep all our development environments, plugins and scripts up-to-date.
-  1. Development environments are local to our laptops - thanks to Vagrant
-  2. We do have Jenkins server for CI which is only used for the couple of the most recent projects but we working on expending Jenkins into cluster and moving our old legasy to be tested there.
 5. Deployment of the application and products:
-  1. Most of the products and application is deployed with Chef
-  2. However we do have couple of projects which are deployed with Ansible
 6. Maintane the production servers for non-critical systems:
-  1. Jenkins server
-  2. Elasticsearch servers
-  3. API servers
-  4. Web application servers
-
 
 From time to time our team receives tasks from other team to build software for them, so we never stop learning and developing. For example:
 1. We have build web based application for network events predictions - JavaScript for server and user interaction + Python for machine learning and prediction
