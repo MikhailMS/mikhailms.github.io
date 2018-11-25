@@ -38,4 +38,5 @@ extensive trial would be conducted once below modules are build to identify most
 **_Application is build with Python 2.7 and requires GPU in order to train LSTM model. Text processing could be completed on CPU_**
 
 [GitHub Link][link-to]
+
 [link-to]: https://github.com/MikhailMS/text_musification
