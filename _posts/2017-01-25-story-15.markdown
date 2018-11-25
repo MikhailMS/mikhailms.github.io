@@ -1,20 +1,23 @@
 ---
-layout: post
-title:  "Musification of text data"
-date:   2017-01-25 01:11:53 -0000
-categories: Python, Multiprocessing, Neural networks, LSTM, NLP
-tag: post
-start-date: 2016-10-04
+layout:      post
+title:       "Musification of text data"
+date:        2017-01-25 01:11:53 -0000
+categories:  Python, Multiprocessing, Neural networks, LSTM, NLP
+tag:         post
+start-date:  2016-10-04
+end-date:    2017-05-11
 module-name: Research Project
-author: Mikhail Molotkov
+author:      Mikhail Molotkov
 ---
 Everyone is familiar with data visualisation tools. However, what if we were able to represent data in musical form?
 
-Project aims to use modern techniques for text analysis, music generation and neural networks to reach the goal - design and develop the system that would be capable to map features, extracted from the text, onto music in order to control its parameters. System could be used for generating background music for audio books.
+Project aims to use modern techniques for text analysis, music generation and neural networks to reach the goal - design and develop the system
+that would be capable to map features, extracted from the text, onto music in order to control its parameters. System could be used for generating background music for audio books.
 
-Since there are number of features that may be extracted from music and the text, and lots of ways to map them with each other, extensive trial would be conducted once below modules are build to identify most suitable approach.
+Since there are number of features that may be extracted from music and the text, and lots of ways to map them with each other,
+extensive trial would be conducted once below modules are build to identify most suitable approach.
 
-**List of modules that would be created, in order to complete the application, in the priority order:**
+**List of modules that've been created, in order to complete the application:**
 
 1. - [x] **Text analysis module**: _Available in two forms: single processing & multi processing (default choice)_
    - [x] Read in epub files
@@ -24,12 +27,15 @@ Since there are number of features that may be extracted from music and the text
    - [x] Readability analysis - possibly worth adding variety of formulas
    - [x] Sliding window feature - moves through text rather then giving a score to the whole text
 
-2. - [ ] **Music generation module**:
+2. - [x] **Music generation module**:
    - [x] Music input
    - [x] Music analysis
    - [x] Build LSTM model
    - [x] Training LSTM model
-   - [ ] Music generation - **in progress** : need to pass extra parameters (received from mapping function) to generation step
-   - [ ] Mapping text features onto music ones - **in progress** : need to find what could be controlled by lexical density
+   - [x] Music generation
+   - [x] Mapping text features onto music ones
 
-**_Application is build with Python 2.7_**
+**_Application is build with Python 2.7 and requires GPU in order to train LSTM model. Text processing could be completed on CPU_**
+
+[GitHub Link][link-to]
+[link-to]: https://github.com/MikhailMS/text_musification
