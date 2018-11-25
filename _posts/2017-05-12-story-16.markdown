@@ -1,0 +1,42 @@
+---
+layout:      post
+title:       "Twitter Search Application"
+date:        2018-11-25 12:33:30 -0000
+categories:  Python, Multiprocessing, Neural networks, LSTM, NLP
+tag:         post
+start-date:  2017-03-12
+end-date:    2017-05-12
+module-name: COM3504 - Intelligent Web
+author:      Mikhail Molotkov
+---
+Aim of the project was to build mobile application and API, which together would enable people to search football related tweets on Twitter.
+Project was a given to a team of 3 (myself included) and I was responsible for building initial version of API (enabling Sockets) and building mobile application.
+
+**Application is build upon Twitter Search & Streaming API, to allow you to search for various tweets published on twitter.com in real-time**
+**Application is more focused on football players and clubs, so it would provide extra information about players and clubs, but not, apparently, limited by that**
+
+**List of modules that've been created, in order to complete the application:**
+
+- [x] Querying Twitter Search & Streaming APIs':
+    - [x] Players, e.g. using their names, Twitter screen names or a range of selected keywords or hashtags
+    - [x] Football teams using their names
+    - [x] Authors of tweets
+- [x] Output fetched tweets in user-friendly manner
+    - [x] Return a list of 300 tweets ( or less, if there are no 300 tweets)
+    - [x] For each tweet provide following:
+        - [x] Author, text, time and date
+        - [x] the link to the original message and
+        - [x] a link to the author’s page
+- [x] Store data in database
+    - [x] Database should be used as source of data
+    - [x] Database should be used as a cache to reduce number of queries sent to Twitter API
+- [x] Build a mobile application with Apache Cordova
+- [x] Integrate information retrieved from DBPedia (data about clubs and/or players)
+
+
+**_Project's API has been tested manually, mobile app was tested on Nexus 5 - Android 7.1.2._**
+
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/intelligent-web
