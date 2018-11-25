@@ -1,0 +1,21 @@
+---
+layout:      post
+title:       "Preflight check"
+date:        2018-11-25 13:10:23 -0000
+categories:  Bash
+tag:         post
+start-date:  2018-01-22
+end-date:    2018-02-26
+author:      Mikhail Molotkov
+---
+Back in the days our team got a brand new shiny Macbooks, so I decided to write a bunch of Bash scripts which would check what is currently installed on the machine
+and install all missing packages, SDKs and etc. So basically it would installed all the tools that are heavilly used by me or our team.
+
+Also it was a great help for our summer interns that received new laptots without anything installed on them. It saved them quite some time :) 
+
+**_Tested on MacOs 10.13 High Sierra, Centos 7_**
+
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/preflight-check

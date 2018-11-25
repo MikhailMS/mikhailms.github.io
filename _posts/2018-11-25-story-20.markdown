@@ -1,0 +1,23 @@
+---
+layout:      post
+title:       "System configuration checker"
+date:        2018-11-25 13:15:21 -0000
+categories:  Bash
+tag:         post
+start-date:  2018-06-20
+end-date:    2018-07-22
+author:      Mikhail Molotkov
+---
+One of my projects required me to collect system metrics of the remote machine, so I decided to write some Bash scripts to do so. 
+Obviously I could have use some packages for it, but decided to 'reinvent the wheel' because:
+1. I wanted to practise Bash
+2. I could be in control of how it works and what metrics are being collected
+3. I could make it as lightweight as possible
+4. It is a bit sad to install super duper package and only use 1% of it
+
+**_Tested on MacOs 10.13 High Sierra, Centos 7_**
+
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/system-config-check
