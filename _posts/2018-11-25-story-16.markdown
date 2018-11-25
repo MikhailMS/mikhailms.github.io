@@ -2,7 +2,7 @@
 layout:      post
 title:       "Twitter Search Application"
 date:        2018-11-25 12:33:30 -0000
-categories:  Python, Multiprocessing, Neural networks, LSTM, NLP
+categories:  Twitter Search & Streaming API, Cordova mobile app, React
 tag:         post
 start-date:  2017-03-12
 end-date:    2017-05-12
