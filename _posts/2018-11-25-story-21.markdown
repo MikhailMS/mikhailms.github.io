@@ -1,0 +1,22 @@
+---
+layout:      post
+title:       "File tracker"
+date:        2018-11-25 13:25:01 -0000
+categories:  Python
+tag:         post
+start-date:  2018-03-05
+author:      Mikhail Molotkov
+---
+Initially I wrote this Python app to help me with developing Java plugin for internal BT project. 
+This app was extremelly helpfull cause it could sync my local files onto remote testing machines (or in our case local vagrant development environment)
+
+As of now this project been developed further in our team as it is required in one of the current project. Once it is done and I confirm nothing in the app is to be considered private to the company,
+i will publish it in my private repo.
+
+
+**_Currently this project is in further development and been rewritten for Python 3.6+_**
+
+
+[GitHub Link][link-to]
+
+[link-to]: https://github.com/MikhailMS/file-tracker
