@@ -2,6 +2,7 @@
 layout:      post
 title:       "Musification of text data"
 date:        2017-01-25 01:11:53 -0000
+updated:     2018-11-25 12:24:00 -0000
 categories:  Python, Multiprocessing, Neural networks, LSTM, NLP
 tag:         post
 start-date:  2016-10-04
