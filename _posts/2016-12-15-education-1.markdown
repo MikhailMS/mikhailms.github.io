@@ -1,10 +1,9 @@
 ---
-layout: post
-title:  University of Sheffield
-date:   2016-12-15 17:28:00 -0000
+layout:     post
+title:      University of Sheffield
+date:       2016-12-15 17:28:00 -0000
 start-date: 2014-09-20
-category: education
+end-date:   2017-06-20
+category:   education
 ---
-At the moment I am in my final year at University of Sheffield on the BEng Software Engineering course.
-In my final year I have following modules: 'Finance & Law', 'Research project', 'Japanese for non-specialists',
-'Adaptive Web', 'Speech Processing'.
+Successfully graduated from University of Sheffiled with 2.1 in BEng Software Engineering

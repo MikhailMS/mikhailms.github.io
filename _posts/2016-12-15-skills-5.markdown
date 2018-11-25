@@ -4,8 +4,12 @@ title:  IT
 date:   2016-12-15 17:24:00 -0000
 category: skills
 ---
+Programming:     Python 3.6 + async, Bash, Java, Ruby and Android development
+
+Databases:       Elasticsearch, Impala, SQLite, MySQL, Oracle DB and MongoDB.
+
+Deployment:      Ansible, Chef
+
+Tools:           Apache Kafka, Apache Flume, Vagrant
+
 Web development: HTML, CSS, Ruby on Rails, JQuery, JavaScript and JS frameworks, such as: Angular.js , Meteor.js, Node.js and React.js
-
-Programming: C#, Java, Python, Ruby, Haskell, Android development, R
-
-Databases - SQLite, MySQL, Oracle DB and MongoDB.

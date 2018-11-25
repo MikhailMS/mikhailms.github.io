@@ -32,20 +32,7 @@ From the day 1 my responsibles were:
   3. API servers
   4. Web application servers
 
+
 From time to time our team receives tasks from other team to build software for them, so we never stop learning and developing. For example:
 1. We have build web based application for network events predictions - JavaScript for server and user interaction + Python for machine learning and prediction
 2. Testing coverage tool for Nokia DSL. Written in Kotlin
-
-
-So far I have gained knowledge in following:
-1. Areas/Tools:
-  1. Apache Kafka, Apache Flume
-  2. Elasticsearch, Impala, HaaS
-  3. Ansible, Chef
-  4. Vagrant
-2. Languages:
-  1. Python 3.6, asyncio and async Python in general
-  2. Java 1.8
-  3. Bash
-  4. Ruby
-
