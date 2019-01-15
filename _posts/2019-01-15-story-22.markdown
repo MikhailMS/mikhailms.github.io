@@ -10,15 +10,17 @@ author:      Mikhail Molotkov
 ---
 
 In my main work project it was required to build API which can get data from ElasticSearch.
-So, my initial approach was to use really nice package https://github.com/elastic/elasticsearch-dsl-py which allows a nice way to work with ES from your Python code.
+So, my initial approach was to use really nice [package][dsl-link] which allows a nice way to work with ES from your Python code.
 
 However, later on I reallised this package does not support asyncronous calls to ElasticSearch and my project could not co-op with incoming load.
-So I started to look into how we can use async approach. There exist package (https://github.com/elastic/elasticsearch-py-async) which enables async calls to ES.
-But because this package does not have nice wrappers aroung calls and ES response as in dsl package and because initial dsl package was already higly integrated into the code,
+So I started to look into how we can use async approach. So I found a [package][async-link] which enables async calls to ES.
+But because this package does not have nice wrappers aroung calls and ES response as in [dsl][dsl-link] package and because initial dsl package was already higly integrated into the code,
 I decided to write my own module, which apparently an update for the code from dsl package, but with the use of async ES client. 
 
 As a result, it gave us a significant improvement - now we can handle 3 times more request than with default dsl package.
 
 [GitHub Link][link-to]
 
-[link-to]: https://github.com/MikhailMS/elasticsearch-async-dsl-binds
+[link-to]:    https://github.com/MikhailMS/elasticsearch-async-dsl-binds
+[dsl-link]:   https://github.com/elastic/elasticsearch-dsl-py
+[async-link]: https://github.com/elastic/elasticsearch-py-async
