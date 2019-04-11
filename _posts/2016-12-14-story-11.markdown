@@ -9,7 +9,9 @@ end-date: 2015-12-15
 module-name: Human Centred Systems Design
 author: Mikhail Molotkov
 ---
-Project’s aim was t	o practice material covered in first semester. In a team of 4 we fulfilled all given tasks - provide a system(written in Java) with interfaces for dentist, hygienist and secretary.
+
+Project’s aim was to practice material covered in first semester. In a team of 4 we fulfilled all given tasks - provide a system(written in Java) with interfaces for dentist, hygienist and secretary.
+
 
 [GitHub Link][link-to]
 

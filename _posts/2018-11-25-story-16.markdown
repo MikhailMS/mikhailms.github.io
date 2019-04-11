@@ -9,11 +9,15 @@ end-date:    2017-05-12
 module-name: COM3504 - Intelligent Web
 author:      Mikhail Molotkov
 ---
+
 Aim of the project was to build mobile application and API, which together would enable people to search football related tweets on Twitter.
 Project was a given to a team of 3 (myself included) and I was responsible for building initial version of API (enabling Sockets) and building mobile application.
 
+
 **Application is build upon Twitter Search & Streaming API, to allow you to search for various tweets published on twitter.com in real-time**
+
 **Application is more focused on football players and clubs, so it would provide extra information about players and clubs, but not, apparently, limited by that**
+
 
 **List of modules that've been created, in order to complete the application:**
 

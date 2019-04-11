@@ -9,6 +9,9 @@ end-date: 2015-11-15
 module-name: Challenges
 author: Mikhail Molotkov
 ---
+
 I have built a team with my coursemate to take a part in this 24 hours Game Jam. It was my first experience in such an events, however I was ready to face any challenges.
+
 At the beginning of the event we decided to take 2 more guys into team, so after that our team started to think about the game - the topic was “End of the world”.
+
 After Jam finished we had a fully functional game (2D platformer). To achieve this goal we use LibGDX library.

@@ -9,7 +9,9 @@ end-date: 2015-12-16
 module-name: Advanced Programming Topics
 author: Mikhail Molotkov
 ---
-The idea of the project was to practice Haskell skills by implementing a Solitaire Game. This task was the most challenging so far and I put great effort in order to complete it.
+
+The idea of the project was to practice Haskell skills by implementing a Solitaire Game.
+This task was the most challenging so far and I put great effort in order to complete it.
 
 [GitHub Link][link-to]
 

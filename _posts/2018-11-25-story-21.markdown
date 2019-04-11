@@ -7,6 +7,7 @@ tag:         post
 start-date:  2018-03-05
 author:      Mikhail Molotkov
 ---
+
 Initially I wrote this Python app to help me with developing Java plugin for internal BT project. 
 This app was extremelly helpfull cause it could sync my local files onto remote testing machines (or in our case local vagrant development environment)
 

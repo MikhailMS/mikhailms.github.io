@@ -9,7 +9,9 @@ end-date: 2015-05-10
 module-name: Machines and Intelligence
 author: Mikhail Molotkov
 ---
+
 The idea of the assignment was to apply STRIPS algorithm to Warrior Game.
+
 
 [GitHub Link][link-to]
 

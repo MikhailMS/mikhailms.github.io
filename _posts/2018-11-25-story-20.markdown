@@ -8,6 +8,7 @@ start-date:  2018-06-20
 end-date:    2018-07-22
 author:      Mikhail Molotkov
 ---
+
 One of my projects required me to collect system metrics of the remote machine, so I decided to write some Bash scripts to do so. 
 Obviously I could have use some packages for it, but decided to 'reinvent the wheel' because:
 1. I wanted to practise Bash

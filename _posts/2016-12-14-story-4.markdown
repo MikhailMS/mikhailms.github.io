@@ -9,7 +9,10 @@ end-date: 2015-04-13
 module-name: Machines and Intelligence
 author: Mikhail Molotkov
 ---
-The aim of this assignment was to work out the best route from a start point to a goal point, given a terrain map for the area by applying different search algorithms, such as Branch-and-Bound and A*.  
+
+The aim of this assignment was to work out the best route from a start point to a goal point, 
+given a terrain map for the area by applying different search algorithms, such as Branch-and-Bound and A*.  
+
 
 [GitHub Link][link-to]
 

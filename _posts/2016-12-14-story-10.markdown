@@ -9,4 +9,13 @@ end-date: 2015-11-27
 module-name: Challenges
 author: Mikhail Molotkov
 ---
-I have seen this challenge in my emails and decided to take part. So I searched for a right partner in my course group and one lad decided to join my team. Together, by using Python + neurolab package and our knowledge from university course we dived into it. First stage we completed with an error 15.76%, second stage - 10.15%. However then university projects took a lead and we decided to drop this challenge, and focused on them. However we agreed to complete this challenge next year, as our result throughout the challenge was in top-10.
+
+I have seen this challenge in my emails and decided to take part. 
+
+So I've decided tp coop with one of my coursemate, who found this challenge of some interest to him.
+Together, by using Python + neurolab package and our knowledge from university course, we dived straight into the challenge. 
+First stage we completed with an error 15.76%, second stage - 10.15%. 
+
+Unfortunately for both of us, at the last stage of the challenge university projects took a lead and we decided to drop from competition. 
+
+**BUT** we agreed to complete this challenge next year, as our result throughout the challenge was in top-10.

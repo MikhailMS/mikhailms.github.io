@@ -9,4 +9,13 @@ end-date: 2016-05-11
 module-name: Work experience
 author: Mikhail Molotkov
 ---
-I have joined a team of graduates from Sheffield Hallam University. They asked me to produce an android application for their project, so I decided to take this opportunity to test my abilities in Java and solving challenges as I’ve never tried to code a mobile applications. Over the summer I worked in collaboration with a team in order to produce the great app. I have learned Android Development from the scratch by watching course provided by Google Android team. After the course I was able to build a decent application. By the end of the summer I had a working prototype that was accepted by the team, so currently I am working on improvements. At the moment project is frozen due luck of initiative from the rest of the team.
+
+I have joined a team of graduates from Sheffield Hallam University. 
+They asked me to produce an android application for their project, so I decided to take this opportunity to test my abilities in Java and solving challenges 
+as I’ve never tried to code a mobile applications. 
+
+Over the summer I worked in collaboration with a team in order to produce the great app.
+I have learned Android Development from the scratch by watching course provided by Google Android team. After the course I was able to build a decent application. 
+
+By the end of the summer I had a working prototype that was accepted by the team, so currently I am working on improvements.
+Unlucky for me, at the moment project is frozen due luck of initiative from the rest of the team.

@@ -9,7 +9,12 @@ end-date: 2015-05-14
 module-name: Java Programming
 author: Mikhail Molotkov
 ---
-The idea of the assignment was by practicing material covered on lectures  create a Chess Game. This project was my third game and I put great effort to complete this game. By the end of the project I produced a fully functional game with a few missing, for the sake of the simplicity,  features, which were not required by assignment specification.
+
+The idea of the assignment was by practicing material covered on lectures  create a Chess Game.
+This project was my third game and I put great effort to complete this game.
+
+By the end of the project I produced a fully functional game with a few missing features, which were not required by assignment specification. (Only dropped those for the sake of the simplicity)
+
 
 [GitHub Link][link-to]
 

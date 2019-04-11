@@ -9,7 +9,9 @@ end-date: 2015-05-10
 module-name: Introduction to Software Engineering
 author: Mikhail Molotkov
 ---
+
 The idea of the project was to practice not only technical skills, such as: web design, Ruby and SQLite DB, but also to practice Agile methodology, Git and principles of Software Development.
+
 
 [GitHub Link][link-to]
 
