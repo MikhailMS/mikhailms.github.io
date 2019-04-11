@@ -10,7 +10,8 @@ module-name: Introduction in Software Engineering
 author: Mikhail Molotkov
 ---
 
-This assignment was my first game I completed at decent level. While assignment aim was to practice topics, covered in semester 1, I tried to use advanced features of Ruby to make my game as efficient as possible.
+This assignment was my first game I completed at decent level. 
+While assignment aim was to practice topics covered in semester 1, I've tried to use advanced features of Ruby to make my game as efficient as possible.
 
 
 [GitHub Link][link-to]

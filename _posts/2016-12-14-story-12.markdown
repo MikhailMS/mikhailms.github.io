@@ -13,7 +13,7 @@ author: Mikhail Molotkov
 The idea of the assignment was to produce a system that can recognise (classify) letters from a given text page.
 
 All training and test data were provided and I had a freedom to choose an algorithm to extract features and how to proceed with that data,
-but to classify data I was asked to use nearest neighbour algorithm.
+but to classify data I was asked to use **nearest neighbour algorithm**.
 
 
 [GitHub Link][link-to]

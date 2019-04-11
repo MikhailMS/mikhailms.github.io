@@ -9,15 +9,17 @@ end-date:    2017-12-15
 author:      Mikhail Molotkov
 ---
 
-After I joined BT I was acknowledged that I need to learn Java 8 for upcoming projects. So I decided to build a simple application which simulates a shop,
-where you can look for available goods, order them and etc. Also, to make it more interesting, I build GUI for the application in JavaFX, 
-which seems to be the only package for GUI that is being maintained. 
+After I joined BT I was acknowledged that I need to learn Java 8 for upcoming projects.
+
+So I decided to build a simple application which simulates a shop, where you can look for available goods, order them and etc. 
+Also, to make it more interesting, I build GUI for the application in JavaFX, which seems to be the only package for GUI that is being maintained. 
 
 
 Moreover, because my team uses TDD approach for building software, I tried to practice that as well in this project. 
+
 As little extra, this project is my first time when I used CI and tools to keep my code clean and ensure it follows best practices.
 
-For more details please refer to [project repo][link-to]
+For more details please refer to the [project repo][link-to]
 
 **_Build and tested on MacOS and Java 1.8 (required)_**
 

@@ -11,5 +11,7 @@ author: Mikhail Molotkov
 ---
 
 My project was to build a web based application in R with Shiny framework.
+
 Application must connect to Oracle DB and fetch data from the table specified by user and provide visualisation for any data stored in that table.
+
 At the end of my placement I successfully completed my project and my line manager was delightful with release version of application.

@@ -10,8 +10,10 @@ author:      Mikhail Molotkov
 ---
 
 This plugin was my first experience in writing custom plugins for Vagrant and one of the few projects which are in Ruby.
+
 The reason for the plugin is that default `vagrant status` command doesn't provide nice looking output when you do have lots of VMs in Vagrantfile.
-So I decided to change the output to suite out team needs - all VMs should be grouped and listed in alphabetical order. And it seems like it does work a little bit faster that original command.
+
+So I decided to change the output to suit out team needs - all VMs should be grouped and listed in alphabetical order. And it seems like it does work a little bit faster that original command.
 
 
 [GitHub Link][link-to]
