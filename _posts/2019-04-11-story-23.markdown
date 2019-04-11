@@ -9,7 +9,8 @@ end-date:    2019-04-11
 author:      Mikhail Molotkov
 ---
 
-Recently I've decided to make a Web App based on my University [dissertation project][link-to]
+Recently I've decided to make a Web App based on my University [dissertation project][link-to].
+
 In the nutshell, this project is about the neural network that composes midi music for given piece of text. Text is being analysed and following metrics are extracted from it:
   1. Complexity score
   2. Sentiment score
@@ -17,12 +18,16 @@ In the nutshell, this project is about the neural network that composes midi mus
 However, for starters, I decided to only allow scores to be submitted. 
 
 So, taking everything into the account, my plan is:
-  1. To build server app with aiohttp framework (because it is super simple to use, it is super fast && I do use it in my work projects), which would resolve all incoming requests
+  1. To build server app with aiohttp framework, which would resolve all incoming requests. I choose **aiohttp** because it is
+    1. super simple to use
+    2. super fast
+    3. I do use it in my work projects)
   2. To build Celery application, which would take care of running my project in multiple threads (since neural networks are some internal packages cannot be used in async context, so cannot call them from aiohttp application)
   3. Set RabbitMQ as a messaging queue for Celery
 
 
 The first step is pretty simple and boring and so the is 2nd. 
+
 **However**, I faced an interesting moment, when I wanted to submit the job received in aiohttp app into RabbitMQ, so Celery can process it. In Celery tutorials I found online, there is no information
 on how can you submit the job request to the RabbitMQ queue so Celery application can get it and start the task. 
 
@@ -41,7 +46,7 @@ setting should be specified and JSON request must be of the format
 }
 ```
 
-For example, if you do have something like
+Therefore, for example, if you do have something like
 ```
 @app.task
 def some_blocking_function(host: str, port: str, whatever: str) str:
