@@ -3,7 +3,7 @@ layout:      post
 title:       "How-to: Submit Celery task job directly from RabbitMQ"
 date:        2019-04-11 23:24:01 +1000
 categories:  Python, Celery, RabbitMQ
-tag:         post
+tag:         notes
 start-date:  2019-04-09
 end-date:    2019-04-11
 author:      Mikhail Molotkov

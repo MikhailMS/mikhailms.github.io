@@ -42,7 +42,7 @@ layout: default
   <!-- Main content bit -->
   <div class='main-content'>
     <!-- List of recent/current projects -->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h1 class="page-heading">Current projects</h1>
       <ul class="post-list">
         {% for post in site.posts %}
@@ -58,11 +58,27 @@ layout: default
       </ul>
     </div>
     <!-- List of completed projects -->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h1 class="page-heading">Completed projects</h1>
       <ul class="post-list">
         {% for post in site.posts %}
         {% if post.end-date != null and post.tag == 'post' %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- List of tips && tricks -->
+    <div class="col-md-4">
+      <h1 class="page-heading">Tips && Tricks</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+        {% if post.end-date != null and post.tag == 'notes' %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
