@@ -19,9 +19,9 @@ However, for starters, I decided to only allow scores to be submitted.
 
 So, taking everything into the account, my plan is:
   1. To build server app with aiohttp framework, which would resolve all incoming requests. I choose **aiohttp** because it is
-    1. super simple to use
-    2. super fast
-    3. I do use it in my work projects)
+    - super simple to use
+    - super fast
+    - I do use it in my work projects)
   2. To build Celery application, which would take care of running my project in multiple threads (since neural networks are some internal packages cannot be used in async context, so cannot call them from aiohttp application)
   3. Set RabbitMQ as a messaging queue for Celery
 
@@ -31,7 +31,7 @@ The first step is pretty simple and boring and so the is 2nd.
 **However**, I faced an interesting moment, when I wanted to submit the job received in aiohttp app into RabbitMQ, so Celery can process it. In Celery tutorials I found online, there is no information
 on how can you submit the job request to the RabbitMQ queue so Celery application can get it and start the task. 
 
-So, after digging around the web, I managed to find the correct settings and message format, that should be placed into RabbitMQ queue for Celery to pick it up
+So, after digging around the web, I managed to find the correct settings and message format, so message could be placed into RabbitMQ queue for Celery to pick it up
 ```
 content_type = 'application/json'
 ```
