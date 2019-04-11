@@ -1,0 +1,63 @@
+---
+layout:      post
+title:       "How-to: Submit Celery task job directly to RabbitMQ"
+date:        2019-04-11 23:24:01 +1000
+categories:  Python, Celery, RabbitMQ
+tag:         post
+start-date:  2019-04-09
+end-date:    2019-04-11
+author:      Mikhail Molotkov
+---
+
+Recently I've decided to make a Web App based on my University [dissertation project][link-to]
+In the nutshell, this project is about the neural network that composes midi music for given piece of text. Text is being analysed and following metrics are extracted from it:
+  1. Complexity score
+  2. Sentiment score
+  3. Lexical density score
+However, for starters, I decided to only allow scores to be submitted. 
+
+So, taking everything into the account, my plan is:
+  1. To build server app with aiohttp framework (because it is super simple to use, it is super fast && I do use it in my work projects), which would resolve all incoming requests
+  2. To build Celery application, which would take care of running my project in multiple threads (since neural networks are some internal packages cannot be used in async context, so cannot call them from aiohttp application)
+  3. Set RabbitMQ as a messaging queue for Celery
+
+
+The first step is pretty simple and boring and so the is 2nd. 
+**However**, I faced an interesting moment, when I wanted to submit the job received in aiohttp app into RabbitMQ, so Celery can process it. In Celery tutorials I found online, there is no information
+on how can you submit the job request to the RabbitMQ queue so Celery application can get it and start the task. 
+
+So, after digging around the web, I managed to find the correct settings and message format, that should be placed into RabbitMQ queue for Celery to pick it up
+```
+content_type = 'application/json'
+```
+setting should be specified and JSON request must be of the format
+```
+{
+	"id": "UUID",
+	"task": "tasks.TASK__WHICH_SHOULD_BE_CALLED",
+	"args": [variable, variable_1, etc],
+	"kwargs": {},
+	"retries": 0
+}
+```
+
+For example, if you do have something like
+```
+@app.task
+def some_blocking_function(host: str, port: str, whatever: str) str:
+...
+```
+and you need to submit the job request to RabbitMQ, then you JSON would look like
+```
+{
+	"id": "UUID",
+	"task": "tasks.some_blocking_function",
+	"args": ['host_value', 'port_value', 'whatever_value'],
+	"kwargs": {},
+	"retries": 0
+}
+```
+
+Seems easy, but it took me some time to find a solution for it. Just wonder, why is it not a part of official tutorial yet? 
+
+[link-to]:    https://github.com/MikhailMS/text_musification
