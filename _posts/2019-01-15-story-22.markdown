@@ -19,6 +19,7 @@ So I started to look into how we can use async approach and I found a [package][
 **BUT**
 1. This package doesn't have nice wrappers around calls and ES responses as in [dsl][dsl-link] package and 
 2. Initial dsl package was already higly integrated into the code
+
 and thus I decided to write my own module, which apparently an update for the code from dsl package, but with the use of async ES client. 
 
 As a result, it gave us a significant improvement - now we can handle 3 times more request than with default dsl package.
