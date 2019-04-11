@@ -15,16 +15,17 @@ In the nutshell, this project is about the neural network that composes midi mus
   1. Complexity score
   2. Sentiment score
   3. Lexical density score
+
 However, for starters, I decided to only allow scores to be submitted. 
+
 
 So, taking everything into the account, my plan is:
   1. To build server app with aiohttp framework, which would resolve all incoming requests. I choose **aiohttp** because it is
       1. super simple to use
       2. super fast
-      3. I do use it in my work projects)
+      3. I do use it in my work projects :) 
   2. To build Celery application, which would take care of running my project in multiple threads (since neural networks are some internal packages cannot be used in async context, so cannot call them from aiohttp application)
   3. Set RabbitMQ as a messaging queue for Celery
-
 
 The first step is pretty simple and boring and so the is 2nd. 
 
